@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="MainScreenOrangeBtn">
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_alignLeft">@+id/spotify_streamer</item>
+        <item name="android:layout_alignStart">@+id/spotify_streamer</item>
+        <item name="android:layout_alignRight">@+id/spotify_streamer</item>
+        <item name="android:layout_alignEnd">@+id/spotify_streamer</item>
+        <item name="android:background">@color/main_orange</item>
+    </style>
+</resources>

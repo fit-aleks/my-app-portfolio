@@ -1,0 +1,19 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Base.Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="MainScreenOrangeBtn">
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_alignLeft">@+id/spotify_streamer</item>
+        <item name="android:layout_alignRight">@+id/spotify_streamer</item>
+        <item name="android:background">@color/main_orange</item>
+    </style>
+
+    <style name="MainScreenPinkBtn" parent="MainScreenOrangeBtn">
+        <item name="android:background">@color/main_pink</item>
+    </style>
+
+</resources>
